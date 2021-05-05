@@ -191,3 +191,17 @@ img {
 .footer .social > * {
     margin-right: 30px;
 }
+
+/* Moblie */
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+}
